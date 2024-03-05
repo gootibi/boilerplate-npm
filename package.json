@@ -1,8 +1,14 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Tibor Balint",
+	"description": "This is a FreeCodeCamp project.",
+	"keywords": ["freecodecamp", "starter", "learn", "beginer"],
+	"license": "MIT",
+	"version": "0.1.1",
 	"dependencies": {
-		"express": "^4.14.0"
+		"cors": "^2.8.5",
+		"express": "^4.14.0",
+		"@freecodecamp/example": "1.1.0"
 	},
 	"main": "server.js",
 	"scripts": {
